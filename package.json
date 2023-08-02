@@ -2,11 +2,11 @@
   "devDependencies": {
     "@types/node": "^20.4.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "sass": "^1.64.2"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
-    "sass": "^1.64.2",
     "scss": "^0.2.4"
   }
 }
