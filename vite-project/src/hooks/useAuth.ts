@@ -1,5 +1,5 @@
 const UseAuth = () => {
-	return null
+	return true
 }
 
 export default UseAuth

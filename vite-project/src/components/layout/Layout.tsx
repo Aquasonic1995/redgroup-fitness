@@ -1,12 +1,15 @@
 import Header from './header/Header.tsx'
+import cn from 'clsx'
+import styles from './Layout.module.scss'
 
-// @ts-ignore
-const Layout = ({ children }) => {
+const Layout = ({ children, bgImage, heading = '', backlink }) => {
+	// @ts-ignore
 	return (
-		<div>
-			<Header />
-			{children}
-		</div>
+		<section className={cn(styles.wrapper, { [styles.otherPage]: !!heading })}>
+			<Header backlink={{ backlink }} />
+			{heading && <h1 className={styles.heading}>{heading}</h1>}
+			{children && <div>{children}</div>}
+		</section>
 	)
 }
 
