@@ -1,5 +1,7 @@
+import Layout from '../../layout/Layout.tsx'
+
 const Profile = () => {
-	return <div></div>
+	return <Layout>Profile</Layout>
 }
 
 export default Profile

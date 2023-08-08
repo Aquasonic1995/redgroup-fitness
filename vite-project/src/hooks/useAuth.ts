@@ -1,5 +1,7 @@
-const UseAuth = () => {
-	return true
+const useAuth = () => {
+	return {
+		isAuth: true
+	}
 }
 
-export default UseAuth
+export default useAuth

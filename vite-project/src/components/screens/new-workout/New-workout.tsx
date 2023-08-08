@@ -1,5 +1,7 @@
+import Layout from '../../layout/Layout.tsx'
+
 const NewWorkout = () => {
-	return <div></div>
+	return <Layout>New workout</Layout>
 }
 
 export default NewWorkout
