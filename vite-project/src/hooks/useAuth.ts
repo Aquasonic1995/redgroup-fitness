@@ -1,6 +1,6 @@
-const useAuth = () => {
+const useAuth = (boolean: boolean) => {
 	return {
-		isAuth: true
+		isAuth: boolean
 	}
 }
 
